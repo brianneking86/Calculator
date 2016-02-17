@@ -12,6 +12,7 @@
 		2930F4FD1C737C59000F8F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2930F4FB1C737C59000F8F17 /* Main.storyboard */; };
 		2930F4FF1C737C59000F8F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2930F4FE1C737C59000F8F17 /* Assets.xcassets */; };
 		2930F5021C737C59000F8F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2930F5001C737C59000F8F17 /* LaunchScreen.storyboard */; };
+		298712291C74CF93008A5AC4 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298712281C74CF93008A5AC4 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2930F4FE1C737C59000F8F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2930F5011C737C59000F8F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2930F5031C737C59000F8F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298712281C74CF93008A5AC4 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2930F4F71C737C59000F8F17 /* AppDelegate.swift */,
 				2930F4F91C737C59000F8F17 /* ViewController.swift */,
 				2930F4FB1C737C59000F8F17 /* Main.storyboard */,
+				298712281C74CF93008A5AC4 /* CalculatorBrain.swift */,
 				2930F4FE1C737C59000F8F17 /* Assets.xcassets */,
 				2930F5001C737C59000F8F17 /* LaunchScreen.storyboard */,
 				2930F5031C737C59000F8F17 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298712291C74CF93008A5AC4 /* CalculatorBrain.swift in Sources */,
 				2930F4FA1C737C59000F8F17 /* ViewController.swift in Sources */,
 				2930F4F81C737C59000F8F17 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				2930F5081C737C59000F8F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
